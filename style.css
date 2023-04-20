@@ -23,8 +23,8 @@ header {
 }
 
 .button-container {
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .header-button {
@@ -60,19 +60,21 @@ header {
 .hire-me-button{
     background-color: orangered;
     color: white;
-    width: 100px;
+    width: 120px;
     height: 40px;
     border: none;
     font-family: 'Inter', sans-serif;
+    font-weight: 600;
 }
 
 .work-button{
     background-color: white;
     color: black;
-    width: 100px;
+    width: 120px;
     height: 40px;
     border: none;
     font-family: 'Inter', sans-serif;
+    font-weight: 600;
 }
 
 @media only screen and (min-width: 800px) {
@@ -80,9 +82,19 @@ header {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+    
+    .main-container-short{
+        padding-left: 50px;
+        padding-right: 100px;
+    }
+
+    .main-container{
+        padding-right: 50px;
+    }
+
     .main-pic{
-        height: 800px;
-        width: 600px;
+        height: 900px;
+        width: 700px;
     }
 }
 
@@ -91,26 +103,137 @@ header {
         display: flex;
         flex-direction: column;
     }
+
     .main-pic{
+        display: flex;
+        justify-content: center;
         height: 400px;
         width: 300px;
     }
-    .main-container{
+
+    .main-container-short{
         display: flex;
         flex-direction: column;
     }
+
+    .main-container{
+        display: flex;
+        flex-direction: column;s
+    }
+}
+
+.main-container{
+    height: 650px;
 }
 
 .main-title-container{
-    padding-top: 80px;
+    padding-top: 100px;
 }
 
 .main-description-container{
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 .main-buttons{
-    padding-top: 10px;
+    padding-top: 30px;
 }
 
+@media only screen and (min-width: 800px) {
+    .lower-main{
+        padding-top: 200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }   
 
+    .black-container{
+        height: 250px;
+        background-color: rgb(33, 31, 31);
+        width: auto;
+    }
+
+    .black-column{
+        padding-left: 150px;
+    }
+    
+    .black-column-dwa{
+        padding-right: 150px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .lower-main{
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }   
+
+    .black-container{
+        height: 250px;
+        background-color: rgb(33, 31, 31);
+        width: auto;
+    }
+}
+
+.black-list{
+    display: flex;
+}
+
+.black-man{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.black-list-item{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: white;
+    border-bottom: 1px solid rgb(103, 101, 101);
+}
+
+.black-list-item-2{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: white;
+    border-bottom: 1px solid rgb(103, 101, 101);
+
+}
+
+.lower-main-title{
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 1000;
+}
+
+.lower-main-description{
+    font-family: 'Inter', sans-serif;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.black-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.black-title{
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 1000;
+    width: 30px;
+    color: white;
+}
+
+.know-more-button{
+    background-color: yellow;
+    color: black;
+    width: 100px;
+    height: 40px;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
