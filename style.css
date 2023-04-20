@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap%27');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+    height: 80px;
+    position: sticky;
+    z-index: 2;
+    top: 0;
+}
+
+.header-buttons{
+    display: flex;
+    margin-left: auto;
+}
+
+.button-container {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.header-button {
+    text-decoration: none;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+
+.chat-container {
+    margin-left: auto;
+    padding-right: 10px;
+}
+
+.chat-button {
+    text-decoration: none;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.main-title{
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+}
+
+.main-description{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+
+.hire-me-button{
+    background-color: orangered;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: none;
+    font-family: 'Inter', sans-serif;
+}
+
+.work-button{
+    background-color: white;
+    color: black;
+    width: 100px;
+    height: 40px;
+    border: none;
+    font-family: 'Inter', sans-serif;
+}
+
+@media only screen and (min-width: 800px) {
+    .main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .main-pic{
+        height: 800px;
+        width: 600px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+    .main-pic{
+        height: 400px;
+        width: 300px;
+    }
+    .main-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.main-title-container{
+    padding-top: 80px;
+}
+
+.main-description-container{
+    padding-top: 20px;
+}
+
+.main-buttons{
+    padding-top: 10px;
+}
+
+
