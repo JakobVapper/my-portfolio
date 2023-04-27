@@ -172,6 +172,28 @@ header {
         flex-direction: column;
         width: auto;
     }
+
+    .main-container-short{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .lower-main-title{
+        display: flex;
+        justify-content: center;
+    }
+
+    .lower-main-description{
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-container{
+        display: flex;
+        justify-content: center;
+        padding-left: 45px;
+        padding-right: 45px;
+    }
 }
 
 .black-list{
@@ -253,14 +275,6 @@ header {
     font-weight: 1000;
 }
 
-.white-list-container{
-    display: flex;
-    flex-direction: column;
-    padding-left: 550px;
-    padding-right: 550px;
-    padding-top: 30px;
-}
-
 .github-stat-text{
     display: flex;
     flex-direction: row;
@@ -304,8 +318,6 @@ header {
 
 .all-projects{
     background-color: rgb(33, 31, 31);
-    padding-left: 50px;
-    padding-right: 50px;
 }
 
 .work-title-container{
@@ -329,12 +341,20 @@ header {
     padding-top: 50px;
 }
 
-.website-pic{
-    height: 300px;
-    width: 600px;
-}
-
 @media only screen and (min-width: 800px){
+    .white-list-container{
+        display: flex;
+        flex-direction: column;
+        padding-left: 550px;
+        padding-right: 550px;
+        padding-top: 30px;
+    }
+
+    .website-pic{
+        height: 300px;
+        width: 600px;
+    }
+
     .row-1{
         display: flex;
         flex-direction: row;
@@ -351,6 +371,41 @@ header {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+    }
+
+    .about-img{
+        height: 300px;
+        width: 200px;
+    }
+
+    .all-projects{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .about-container{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .about-all{
+        padding-left: 100px;
+    }
+
+    .all-contact-title{
+        padding-left: 120px;
+    }
+
+    .about-container{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .full-contact-container{
+        display: flex;
+        flex-direction: row;
+        padding-left: 120px;
+        padding-right: 120px;
     }
 }
 
@@ -372,22 +427,78 @@ header {
         flex-direction: column;
         justify-content: space-between;
     }
+
+    .work-container-1{
+        display: flex;
+        justify-content: center;
+    }
+
+    .work-container-2{
+        display: flex;
+        justify-content: center;
+    }
+
+    .work-container-3{
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-img{
+        height: 450px;
+        width: 300px;
+    }
+
+    .website-pic{
+        height: 100px;
+        width: 200px;
+    }
+
+    .about-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-all{
+        padding-top: 120px;
+    }
+
+    .about-title{
+        display: flex;
+        justify-content: center;
+    }
+
+    .all-contact-title{
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact-text-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contact-text-info{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .about-button-container{
+        display: flex;
+        justify-content: center;
+    }
+    .about-img-container{
+        display: flex;
+        justify-content: center;
+    }
 }
 
 .work-container-3{
     padding-top: 50px;
 }
 
-.about-img{
-    height: 300px;
-    width: 300px;
-}
-
 .about-container{
     display: flex;
-    flex-direction: row;
-    padding-left: 60px;
-    padding-right: 60px;
     padding-top: 60px;
     padding-bottom: 100px;
 }
@@ -395,7 +506,6 @@ header {
 .about-all{
     display: flex;
     flex-direction: column;
-    padding-left: 100px;
 }
 
 .about-title{
@@ -420,7 +530,6 @@ header {
     font-family: 'Inter', sans-serif;
     font-size: 40px;
     font-weight: 1000;
-    padding-left: 120px;
     padding-bottom: 10px;
 }
 
@@ -436,11 +545,7 @@ header {
 }
 
 .full-contact-container{
-    display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    padding-left: 120px;
-    padding-right: 120px;
     align-items: center;
 }
 
